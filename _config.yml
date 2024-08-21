@@ -3,10 +3,11 @@
 # -----------------------------------------------------------------------------
 
 title: "Tejasvini Bhatt"
-first_name: Tejasvini
-middle_name: M.
-last_name: Bhatt
-email: tejasvinibhatt22@gmail.com
+first_name: "Tejasvini"
+middle_name: "M."
+last_name: "Bhatt"
+email: "tejasvinibhatt22@gmail.com"
+subtitle: "International Economics / Finance / Computational Economics"
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   "I am a Master’s student specializing in International Economics at the University of Tübingen, where I am developing expertise in predicting economic indicators and analyzing large datasets to uncover trends and insights that drive global economic strategies. My academic interests lie in understanding the complexities of multinational corporations (MNCs) and their operations across different countries, focusing on how these organizations adapt to varying economic environments."
 footer_text: >
@@ -15,16 +16,16 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: assets/images/Profile-picture.jpg
+icon: "assets/images/Profile-picture.jpg"
 
-url: https://TejasviniBhatt.github.io # the base hostname & protocol for your site
+url: "https://tejasvinibhatt.github.io" # the base hostname & protocol for your site
 baseurl: ""# the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
-# Theme
+ theme: "al-folio"
 # -----------------------------------------------------------------------------
 
 # repo color theme
