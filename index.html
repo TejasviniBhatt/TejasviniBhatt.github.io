@@ -742,13 +742,18 @@
             position: relative;
             border-bottom: 1px solid rgba(0,0,0,0.1);
             font-weight: 500;
-            font-size: 1rem;
+            font-size: 1.2rem;
             transition: all 0.3s ease;
             animation: gradientShift 4s ease infinite;
             overflow: hidden;
-            border-radius: 12px;
+            border-radius: 22px;
             box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
             max-width: 100%;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
         }
 
         .job-market-notification::before {
@@ -796,6 +801,7 @@
         .job-market-notification span {
             position: relative;
             z-index: 1;
+            white-space: nowrap;
         }
 
         @keyframes gradientShift {
@@ -997,7 +1003,7 @@
                     <!-- Job Market Notification Bar -->
                     <div class="job-market-notification" onclick="copyEmail()" title="Click to copy email address" style="margin-bottom: 20px; border-radius: 12px;">
                         <i class="fas fa-briefcase"></i>
-                        <span>I am currently on the job market. Feel free to connect!</span>
+                        <span>I am currently looking for Internship Opportunities. Feel free to connect!</span>
                     </div>
                     <p>I am currently pursuing my <strong>MSc in Economics and Finance</strong> at the <strong>University of Tübingen</strong>, where I am advised by <strong>Prof. Dr. Joachim Grammig</strong>. My academic focus lies in <strong>finance</strong>, <strong>macroeconomic trends</strong>, and <strong>investor behaviour</strong> in global markets.</p>
 
