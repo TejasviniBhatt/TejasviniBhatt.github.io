@@ -951,11 +951,16 @@
 
 <body>
         <!-- SVG Polygon Overlay for Background -->
-        <div style="position:fixed;z-index:-1;top:0;left:0;width:100vw;height:100vh;pointer-events:none;">
-            <svg width="100%" height="100%" viewBox="0 0 1920 400" preserveAspectRatio="none" style="display:block;">
-                <polygon points="0,100 0,400 1920,400 1920,0 1200,80 800,40 400,120" fill="#bfe3b0"/>
-            </svg>
-        </div>
+            <div style="position:fixed;z-index:-1;top:0;left:0;width:100vw;height:100vh;pointer-events:none;">
+                <svg width="100%" height="100%" viewBox="0 0 1920 600" preserveAspectRatio="none" style="display:block;">
+                    <!-- Topmost lightest layer -->
+                    <polygon points="0,0 1920,0 1920,120 0,80" fill="#e6f5db"/>
+                    <!-- Middle layer -->
+                    <polygon points="0,100 0,400 1920,320 1920,80 1200,140 800,100 400,180" fill="#d4edc4"/>
+                    <!-- Bottom layer -->
+                    <polygon points="0,250 0,600 1920,600 1920,200 1600,260 1200,220 800,300 400,260" fill="#bfe3b0"/>
+                </svg>
+            </div>
         <!-- Header Section -->
         <header class="header">
                 <div class="container">
