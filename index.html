@@ -525,67 +525,100 @@
         /* Responsive Design */
         @media (max-width: 768px) {
             .container {
-                padding: 0 20px;
+                padding: 0 8px;
             }
-            
             .name {
-                font-size: 2.5rem;
+                font-size: 2rem;
                 letter-spacing: -0.5px;
             }
-            
             .tagline {
-                font-size: 1rem;
+                font-size: 0.95rem;
             }
-            
             .profile-section {
                 grid-template-columns: 1fr;
-                gap: 30px;
+                gap: 18px;
                 text-align: center;
             }
-            
+            .glass-box {
+                padding: 16px 10px;
+                margin-bottom: 18px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            }
             .publication {
                 grid-template-columns: 1fr;
-                gap: 15px;
+                gap: 10px;
             }
-            
             .publication-image img {
-                max-height: 120px;
+                max-height: 90px;
                 object-fit: contain;
             }
-            
             .nav-links {
-                gap: 12px;
-                margin-bottom: 25px;
+                gap: 8px;
+                margin-bottom: 18px;
             }
-            
             .nav-link {
-                padding: 10px 16px;
-                font-size: 0.9rem;
-            }
-            
-            .social-links {
-                gap: 14px;
-                margin-top: 25px;
-            }
-            
-            .social-link {
-                padding: 10px 16px;
+                padding: 8px 12px;
                 font-size: 0.85rem;
             }
-            
-            .header {
-                padding: 60px 0 40px;
+            .social-links {
+                gap: 10px;
+                margin-top: 18px;
             }
-
+            .social-link {
+                padding: 8px 12px;
+                font-size: 0.8rem;
+            }
+            .header {
+                padding: 38px 0 22px;
+            }
             .experience-logos {
-                gap: 40px;
-                margin-top: 25px;
+                gap: 18px;
+                margin-top: 18px;
                 justify-content: center;
             }
-
             .experience-logo img {
-                height: 60px;
-                max-width: 140px;
+                height: 38px;
+                max-width: 90px;
+            }
+            .news-section {
+                padding: 12px 0;
+                margin: 18px 0;
+                border-radius: 8px;
+            }
+            .news-content {
+                max-width: 98vw;
+                padding: 0 2vw;
+            }
+            .news-list {
+                max-height: 120px;
+                font-size: 0.9rem;
+            }
+            .scroll-to-top {
+                bottom: 16px;
+                right: 16px;
+                width: 38px;
+                height: 38px;
+                font-size: 1rem;
+            }
+            .job-market-notification {
+                padding: 8px 10px;
+                font-size: 0.85rem;
+                margin-bottom: 12px;
+            }
+            .toast {
+                top: 8px;
+                right: 8px;
+                left: 8px;
+                font-size: 0.85rem;
+            }
+            .footer {
+                font-size: 0.85rem;
+                padding: 12px 0;
+            }
+            button, .nav-link, .social-link {
+                min-width: 44px;
+                min-height: 44px;
+                touch-action: manipulation;
             }
         }
 
